@@ -10,12 +10,12 @@ Este repositorio presenta una **plantilla técnica reutilizable** para construir
 
 La estructura de carpetas sigue principios de separación de responsabilidades, facilitando el mantenimiento y la escalabilidad de cualquier bot:
 
-├── config/ # Configuración de logs y parámetros (ej: credenciales)
-├── data/ # Carpeta de salida para informes generados por el bot
-├── drivers/ # WebDrivers necesarios para Selenium
-├── logs/ # Archivos .log detallados por ejecución
-├── scripts/ # Código fuente del bot (main.py y módulos auxiliares)
-└── main_rpa.spec # Archivo de empaquetado PyInstaller (.exe)
+├── config/         # Configuración de logs y parámetros (ej: credenciales)
+├── data/           # Carpeta de salida para informes generados por el bot
+├── drivers/        # WebDrivers necesarios para Selenium
+├── logs/           # Archivos .log detallados por ejecución
+├── scripts/        # Código fuente del bot (main.py y módulos auxiliares)
+└── main_rpa.spec   # Archivo de empaquetado PyInstaller (.exe)
 
 
 ## ⚙️ Descripción de los Componentes
